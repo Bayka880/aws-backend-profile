@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+.NavBar {
+  background-color: rgb(252, 246, 239);
+}
+.nav-link,
+.nickname {
+  color: rgb(63, 44, 51) !important;
+  min-width: 200px !important;
+}
+.nickname {
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-size: 25px !important;
+}

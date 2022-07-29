@@ -1,0 +1,15 @@
+<body>
+  <h1><%=data.name%></h1>
+  <div style="display: flex">
+    <% data.a.dessert.forEach((item)=>{%>
+    <div><%=item%></div>
+    <%});%>
+  </div>
+  <div>
+    <div style="display: flex">
+      <% data.b.forEach((item)=>{%>
+      <div><img src="<%=item%>" alt="" width="200px" /></div>
+      <%});%>
+    </div>
+  </div>
+</body>
